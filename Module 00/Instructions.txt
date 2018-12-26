@@ -1,0 +1,33 @@
+1. Install VirtualBox in your Linux/Windows Machine
+
+2. Import the OVA file inside VirtualBox
+
+3. Start the "Ubuntu 17.10" inside VirtualBox
+
+4. Start Terminal inside the "Ubuntu 17.10" using the Butttons (Ctrl + Alt + T)
+
+5. Password for "sudo" is "123"
+
+6. Set Proxy inside the terminal using the following commands (Needed only when used in College Labs)
+$ export http_proxy=http://username:password@10.0.7.4:800
+$ export https_proxy=https://username:password@10.0.7.4:800
+
+7. Use the following command to update your machine (Needed only once)
+$ sudo apt update
+
+8. Use the following command to upgrade your machine (Needed only once)
+sudo apt upgrade
+
+9. Use the following command to install "pip3"
+$ sudo apt install python3-pip
+
+10. Use the following command to install "Chromium Browser"
+$ sudo apt install chromium-browser
+
+11. Change the default browser to Chromium using the "Settings> Details> Default Applications> Web"
+
+12. Use the following command to install jupyter notebook
+$ pip3 install jupyter
+
+13. To run jupyter notebook using terminal, type the command
+$ jupyter notebook
